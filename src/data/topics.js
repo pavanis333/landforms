@@ -129,3 +129,33 @@ const topics = [
 ];
 
 export default topics;
+
+// Mass Movements topic - separate for clarity
+topics.push({
+  id: "mass-movements",
+  name: "Mass Movements",
+  subtopics: [
+    {
+      id: "mass-movements-intro",
+      name: "Introduction & Factors",
+      flashcards: [
+        { id: "mm1", front: "What is Mass Movement (Mass Wasting)?", back: "The downhill movement of rock, soil and debris under the direct influence of gravity." },
+        { id: "mm2", front: "What is the primary driving force of mass movement?", back: "Gravity — but it is influenced by factors such as weathering, slope steepness, water saturation, vegetation and human activities." },
+        { id: "mm3", front: "How does Slope Angle affect mass movement?", back: "The steeper the slope, the greater the potential for mass movement." },
+        { id: "mm4", front: "How does Water Content affect mass movement?", back: "Water acts as a lubricant, increasing the likelihood of material sliding downhill. Saturated soils are more prone to movement." },
+        { id: "mm5", front: "How does Vegetation affect mass movement?", back: "Roots help bind soil particles and stabilize slopes. Absence of vegetation (due to deforestation or natural events) increases mass movement risk." },
+        { id: "mm6", front: "How do Human Activities trigger mass movement?", back: "Construction, mining and deforestation trigger the removal of support from below the materials above, disturbing natural slopes and triggering mass movements." },
+        { id: "mm7", front: "What natural causes can trigger mass movement?", back: "Earthquakes, explosions or machinery can cause mass movement." },
+        { id: "mm8", front: "What are the two major classes of mass movements?", back: "1. Slow Movements\n2. Rapid Movements" },
+      ],
+      quizzes: [
+        { id: "mmq1", question: "Mass movement is primarily driven by:", options: ["Wind", "Water currents", "Gravity", "Solar energy"], correct: 2 },
+        { id: "mmq2", question: "Which factor does NOT directly influence mass movement?", options: ["Slope steepness", "Water saturation", "Earth's magnetic field", "Vegetation"], correct: 2 },
+        { id: "mmq3", question: "Water contributes to mass movement by:", options: ["Binding soil particles together", "Acting as a lubricant", "Increasing vegetation growth", "Reducing slope angle"], correct: 1 },
+        { id: "mmq4", question: "Deforestation increases mass movement risk because:", options: ["It increases rainfall", "Roots no longer bind soil and stabilize slopes", "It makes the soil drier", "It increases rock hardness"], correct: 1 },
+        { id: "mmq5", question: "The two major classes of mass movements are:", options: ["Erosional and Depositional", "Slow and Rapid", "Physical and Chemical", "Surface and Subsurface"], correct: 1 },
+        { id: "mmq6", question: "Which human activity can trigger mass movements?", options: ["Irrigation", "Mining", "Crop rotation", "Terracing"], correct: 1 },
+      ],
+    },
+  ],
+});
