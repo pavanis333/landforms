@@ -316,6 +316,44 @@ const topics = [
       },
     ],
   },
+  {
+    id: "sea-wave-landforms",
+    name: "Sea-Wave Landforms",
+    subtopics: [
+      {
+        id: "sea-wave-intro",
+        name: "Introduction",
+        flashcards: [
+          { id: "sw1", front: "What are Sea-Wave Landforms?", back: "Landforms created by the continuous action of waves, tides and ocean currents along coastlines. These exogenic forces erode, transport and deposit materials. The energy is driven primarily by wind interacting with coastal rocks and sediments." },
+        ],
+        quizzes: [
+          { id: "swq1", question: "Sea-wave landforms are shaped primarily by:", options: ["River action", "Glacial movement", "Waves, tides and ocean currents", "Volcanic activity"], correct: 2 },
+        ],
+      },
+      {
+        id: "sea-wave-erosional",
+        name: "Erosional Landforms",
+        flashcards: [
+          { id: "swe1", front: "What are Headlands and Bays?", back: "Headlands are protruding landforms of resistant rock, while bays are recessed areas of softer rock eroded more quickly. Formed by differential erosion — softer rock erodes faster creating bays, harder rock remains as headlands." },
+          { id: "swe2", front: "What is a Sea Cliff?", back: "A steep, near-vertical rock face formed by continuous coastal erosion. Waves undercut the base through hydraulic action and abrasion. As the base erodes, overlying material becomes unstable and collapses, causing the cliff to retreat inland over time." },
+          { id: "swe3", front: "What is a Notch?", back: "A shallow, horizontal indentation or groove cut into the base of a coastal cliff by the erosive action of sea waves. It is an early stage in the formation of larger features like sea caves or wave-cut platforms." },
+          { id: "swe4", front: "What is a Sea Cave?", back: "A hollow cavity or tunnel formed in coastal cliffs by wave erosion. Waves exploit weaknesses (cracks, joints, bedding planes) in the rock. Typically found at the base of cliffs." },
+          { id: "swe5", front: "What is a Sea Arch?", back: "A natural arch formed when waves erode through a headland. Sea caves form on opposite sides of a headland, and continued erosion causes them to enlarge and meet, forming an arch." },
+          { id: "swe6", front: "What are Sea Stacks (Chimney Rock / Skerries)?", back: "Isolated, vertical columns of rock standing offshore, separated from the main coastline. Formed when a sea arch collapses — the roof becomes too weak, falls, leaving behind a column of rock that was part of the headland." },
+          { id: "swe7", front: "What is the sequence of coastal erosional landform formation?", back: "Notch → Sea Cave → Sea Arch → Sea Stack\n(Progressive erosion of a headland)" },
+        ],
+        quizzes: [
+          { id: "sweq1", question: "Headlands and Bays are formed by:", options: ["Uniform erosion", "Differential erosion of hard and soft rock", "River deposition", "Glacial action"], correct: 1 },
+          { id: "sweq2", question: "Sea Cliffs retreat inland due to:", options: ["Deposition at the base", "Undercutting and collapse of overlying material", "Tectonic uplift", "Wind erosion only"], correct: 1 },
+          { id: "sweq3", question: "A Notch is an early stage in the formation of:", options: ["Deltas", "Sea caves or wave-cut platforms", "Sand dunes", "Moraines"], correct: 1 },
+          { id: "sweq4", question: "A Sea Arch forms when:", options: ["A cliff collapses entirely", "Sea caves on opposite sides of a headland meet", "Sand is deposited in an arc", "A river cuts through rock"], correct: 1 },
+          { id: "sweq5", question: "Sea Stacks are formed from the collapse of:", options: ["Sea cliffs", "Sea arches", "Sand bars", "Coral reefs"], correct: 1 },
+          { id: "sweq6", question: "The correct sequence of coastal erosion features is:", options: ["Stack → Arch → Cave → Notch", "Notch → Cave → Arch → Stack", "Cave → Notch → Stack → Arch", "Arch → Stack → Notch → Cave"], correct: 1 },
+          { id: "sweq7", question: "Sea caves form when waves exploit:", options: ["Hard resistant rock only", "Cracks, joints and bedding planes in rock", "Sandy beaches", "River deposits"], correct: 1 },
+        ],
+      },
+    ],
+  },
 ];
 
 export default topics;
