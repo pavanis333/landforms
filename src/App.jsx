@@ -147,6 +147,11 @@ function FlashcardViewer({ subtopic, onBack, onDone }) {
       </div>
       <div className="flashcard-container">
         <div className="flashcard-progress-text">Card {index + 1} of {cards.length}</div>
+        <div className="flashcard-nav">
+          <button className="nav-arrow" disabled={index === 0} onClick={() => { setIndex(index - 1); setFlipped(false); }}>‹ Prev</button>
+          <span style={{ flex: 1 }} />
+          <button className="nav-arrow" disabled={index === cards.length - 1} onClick={() => { setIndex(index + 1); setFlipped(false); }}>Next ›</button>
+        </div>
         <div className="flashcard" onClick={() => setFlipped(!flipped)}>
           <div className="flashcard-label">{flipped ? "Answer" : "Question"}</div>
           <div className="flashcard-content">{flipped ? card.back : card.front}</div>
@@ -246,11 +251,15 @@ function QuizViewer({ subtopic, onBack, onDone }) {
             );
           })}
         </div>
-        {!answered ? (
-          <button className="quiz-btn" disabled={selected === null} onClick={handleSubmit}>Check Answer</button>
-        ) : (
-          <button className="quiz-btn" onClick={handleNext}>{qIndex < questions.length - 1 ? "Next →" : "Finish"}</button>
-        )}
+        <div className="quiz-nav-row">
+          <button className="nav-arrow" disabled={qIndex === 0} onClick={() => { setQIndex(qIndex - 1); setSelected(answers[qIndex - 1] ?? null); setAnswered(answers[qIndex - 1] !== undefined); }}>‹ Prev</button>
+          {!answered ? (
+            <button className="quiz-btn" disabled={selected === null} onClick={handleSubmit}>Check Answer</button>
+          ) : (
+            <button className="quiz-btn" onClick={handleNext}>{qIndex < questions.length - 1 ? "Next →" : "Finish"}</button>
+          )}
+          <button className="nav-arrow" disabled={qIndex === questions.length - 1 || !answered} onClick={handleNext}>Next ›</button>
+        </div>
       </div>
     </>
   );
