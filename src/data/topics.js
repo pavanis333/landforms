@@ -471,6 +471,49 @@ const topics = [
       },
     ],
   },
+  {
+    id: "karst-landforms",
+    name: "Karst (Groundwater) Landforms",
+    subtopics: [
+      {
+        id: "karst-intro",
+        name: "Introduction",
+        flashcards: [
+          { id: "k1", front: "What is Karst Topography?", back: "A distinctive landscape formed by the dissolution of soluble rocks (limestone, dolomite, gypsum) through the action of water. Characterised by underground drainage systems with caves, sinkholes and other features. Shaped primarily by chemical weathering." },
+          { id: "k2", front: "How does water dissolve karst rocks?", back: "Slightly acidic water (containing carbonic acid formed when water reacts with CO₂) dissolves soluble rocks like limestone, gypsum and dolomites through chemical weathering." },
+        ],
+        quizzes: [
+          { id: "kq1", question: "Karst topography is formed primarily by:", options: ["Wind erosion", "Glacial action", "Dissolution of soluble rocks by water", "Volcanic activity"], correct: 2 },
+          { id: "kq2", question: "Which rocks are commonly associated with karst landscapes?", options: ["Granite and basalt", "Limestone, dolomite and gypsum", "Sandstone and shale", "Quartzite and slate"], correct: 1 },
+        ],
+      },
+      {
+        id: "karst-erosional",
+        name: "Erosional Landforms",
+        flashcards: [
+          { id: "ke1", front: "What is a Karst Valley (Blind Valley)?", back: "A valley that terminates abruptly with no surface river exiting. Surface rivers are diverted underground into a karst drainage system, leaving the valley floor dry. Has steep sides, flat floors, and may contain sinkholes or swallow holes." },
+          { id: "ke2", front: "What are Sinkholes?", back: "Funnel-shaped depressions or holes in the ground formed by dissolution of surface limestone. Common in karst landscapes and vary greatly in size and depth." },
+          { id: "ke3", front: "What are Swallow Holes (Shallow Holes)?", back: "Openings that develop where soluble rock is near the surface. Water from rivers or streams flows into the ground through these openings and continues in underground rivers and caves. Often mark the entrance to underground cave systems." },
+          { id: "ke4", front: "What are Dolines?", back: "Small, bowl-shaped enclosed depressions in karst terrain. Sometimes referred to as collapse sinks." },
+          { id: "ke5", front: "What are Uvalas?", back: "Large, irregular depressions formed by the merging of several sinkholes or sinkholes and dolines. Form where limestone dissolution occurs on a larger scale." },
+          { id: "ke6", front: "What is a Polje?", back: "A large depression formed from continued dissolution and subsidence of limestone over a broad area. Associated with underground rivers that intermittently flood it, creating seasonal lakes. Important agricultural areas due to fertile soils." },
+          { id: "ke7", front: "What are Limestone Pavements?", back: "Flat, exposed areas of limestone bedrock weathered into block-like features. Deep cracks called grikes separate the remaining blocks called clints. Rainwater seeps into joints, dissolves rock, widens fissures into deep vertical clefts." },
+          { id: "ke8", front: "What are Clints and Grikes?", back: "Clints: the remaining blocks of limestone left standing between cracks.\nGrikes: deep vertical cracks/fissures in limestone pavements formed by dissolution." },
+          { id: "ke9", front: "What is the progression of karst depressions by size?", back: "Sinkhole → Doline → Uvala → Polje\n(Small to large, single to merged features)" },
+        ],
+        quizzes: [
+          { id: "keq1", question: "A Blind Valley terminates abruptly because:", options: ["A dam blocks the river", "Surface water is diverted underground into karst drainage", "Glaciers block the path", "Wind deposits block the exit"], correct: 1 },
+          { id: "keq2", question: "Sinkholes are formed by:", options: ["Wind erosion", "Glacial action", "Dissolution of surface limestone", "River deposition"], correct: 2 },
+          { id: "keq3", question: "Uvalas are formed by:", options: ["Volcanic eruptions", "Merging of several sinkholes", "Wind deposition", "Tectonic uplift"], correct: 1 },
+          { id: "keq4", question: "A Polje may contain seasonal lakes because of:", options: ["Glacier meltwater", "Underground rivers that intermittently flood it", "Constant rainfall", "Ocean tides"], correct: 1 },
+          { id: "keq5", question: "In Limestone Pavements, the blocks are called:", options: ["Grikes", "Clints", "Dolines", "Uvalas"], correct: 1 },
+          { id: "keq6", question: "The deep cracks in Limestone Pavements are called:", options: ["Clints", "Sinkholes", "Grikes", "Poljes"], correct: 2 },
+          { id: "keq7", question: "Swallow Holes often mark the entrance to:", options: ["River deltas", "Underground cave systems", "Volcanic vents", "Sand dunes"], correct: 1 },
+          { id: "keq8", question: "The correct order of karst depressions from smallest to largest is:", options: ["Polje → Uvala → Doline → Sinkhole", "Sinkhole → Doline → Uvala → Polje", "Uvala → Polje → Sinkhole → Doline", "Doline → Sinkhole → Polje → Uvala"], correct: 1 },
+        ],
+      },
+    ],
+  },
 ];
 
 export default topics;
