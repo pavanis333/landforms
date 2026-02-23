@@ -512,6 +512,25 @@ const topics = [
           { id: "keq8", question: "The correct order of karst depressions from smallest to largest is:", options: ["Polje → Uvala → Doline → Sinkhole", "Sinkhole → Doline → Uvala → Polje", "Uvala → Polje → Sinkhole → Doline", "Doline → Sinkhole → Polje → Uvala"], correct: 1 },
         ],
       },
+      {
+        id: "karst-depositional",
+        name: "Depositional Landforms",
+        flashcards: [
+          { id: "kd1", front: "How do Karst Depositional Landforms form?", back: "Through precipitation of dissolved minerals. Water rich in calcium carbonate (CaCO₃) seeps through cracks and deposits minerals as it drips or flows, forming stalactites, stalagmites, pillars and flowstones." },
+          { id: "kd2", front: "What are Stalactites?", back: "Icicle-shaped formations hanging from the ceiling of a cave. Form as water rich in CaCO₃ drips from the roof, losing CO₂ and leaving behind calcite deposits. Grow downward slowly — can take thousands of years to form a few inches. Elongated, pointed shape." },
+          { id: "kd3", front: "What are Stalagmites?", back: "Upward-growing formations rising from the cave floor, directly beneath a stalactite. Form from minerals deposited by water dripping from the ceiling. Typically blunt or rounded at the top, unlike the pointed stalactites." },
+          { id: "kd4", front: "What are Pillars (Columns)?", back: "Formed when a stalactite and a stalagmite grow together and meet, creating a single continuous feature from cave ceiling to floor. Often among the most spectacular features in karst caves." },
+          { id: "kd5", front: "How to remember Stalactite vs Stalagmite?", back: "StalaCTite — C for Ceiling (hangs down, pointed)\nStalagMite — M for Mound (grows up from floor, rounded top)" },
+        ],
+        quizzes: [
+          { id: "kdq1", question: "Stalactites hang from the:", options: ["Cave floor", "Cave ceiling", "Cave walls", "Outside the cave"], correct: 1 },
+          { id: "kdq2", question: "Stalagmites are typically:", options: ["Pointed at the top", "Blunt or rounded at the top", "Flat on top", "Hollow inside"], correct: 1 },
+          { id: "kdq3", question: "Pillars (Columns) form when:", options: ["A cave roof collapses", "A stalactite and stalagmite meet", "Water floods the cave", "Wind erodes the cave walls"], correct: 1 },
+          { id: "kdq4", question: "Stalactites form from the deposition of:", options: ["Iron oxide", "Calcium carbonate (CaCO₃)", "Silica", "Salt crystals"], correct: 1 },
+          { id: "kdq5", question: "The growth of stalactites is:", options: ["Very fast (days)", "Moderate (months)", "Very slow (thousands of years)", "Instantaneous"], correct: 2 },
+          { id: "kdq6", question: "Stalagmites grow:", options: ["Downward from the ceiling", "Upward from the cave floor", "Sideways from walls", "Only in volcanic caves"], correct: 1 },
+        ],
+      },
     ],
   },
 ];
