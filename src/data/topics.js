@@ -376,6 +376,24 @@ const topics = [
         { id: "swdq8", question: "Tombolo formation involves:", options: ["Volcanic activity", "Wave refraction and longshore drift", "Chemical weathering", "Mass wasting"], correct: 1 },
       ],
     },
+    {
+      id: "coastlines",
+      name: "Coastlines (Ria, Fjord, Dalmatian)",
+      flashcards: [
+        { id: "cl1", front: "What creates Ria, Fjord and Dalmatian coastlines?", back: "The interaction of tectonic activity, glaciation and sea-level changes. These are the result of submergence — rising sea levels flooding pre-existing river valleys, glacial valleys or tectonically uplifted regions." },
+        { id: "cl2", front: "What is a Ria Coastline?", back: "Characterised by drowned river valleys submerged by rising sea levels. Valleys were formed by fluvial (river) erosion and later flooded, creating deep, narrow and irregular inlets along the coast.\nExample: Coast of south-west Ireland." },
+        { id: "cl3", front: "What is a Fjord Coastline?", back: "Formed by the flooding of glacially carved valleys when sea levels rise, creating deep, narrow inlets surrounded by steep cliffs. Fjords are much deeper than typical river valleys because they were carved by glaciers.\nExample: Fjord coasts of Norway." },
+        { id: "cl4", front: "What is a Dalmatian Coastline?", back: "Occurs in tectonically active areas where parallel mountain ridges are partially submerged, creating elongated islands and narrow coastal waters.\nExample: Dalmatian coast of Yugoslavia." },
+        { id: "cl5", front: "How does a Fjord differ from a Ria?", back: "Ria: drowned river valley (fluvial erosion) — shallower, irregular inlets.\nFjord: drowned glacial valley — much deeper, steep-walled cliffs." },
+      ],
+      quizzes: [
+        { id: "clq1", question: "Ria coastlines are formed by:", options: ["Glacial valley flooding", "Drowned river valleys due to rising sea levels", "Tectonic uplift of mountain ridges", "Volcanic island formation"], correct: 1 },
+        { id: "clq2", question: "Fjords are deeper than Rias because they were carved by:", options: ["Rivers", "Wind", "Glaciers", "Ocean currents"], correct: 2 },
+        { id: "clq3", question: "Dalmatian coastlines feature:", options: ["Drowned river valleys", "Deep glacial inlets", "Partially submerged parallel mountain ridges", "Coral reef formations"], correct: 2 },
+        { id: "clq4", question: "The fjord coasts of Norway are an example of:", options: ["Ria coastline", "Fjord coastline", "Dalmatian coastline", "Barrier coastline"], correct: 1 },
+        { id: "clq5", question: "All three coastline types (Ria, Fjord, Dalmatian) are the result of:", options: ["Emergence", "Submergence", "Volcanic activity", "Wind erosion"], correct: 1 },
+      ],
+    },
   ],
   },
 ];
