@@ -352,7 +352,31 @@ const topics = [
           { id: "sweq7", question: "Sea caves form when waves exploit:", options: ["Hard resistant rock only", "Cracks, joints and bedding planes in rock", "Sandy beaches", "River deposits"], correct: 1 },
         ],
       },
-    ],
+      {
+      id: "sea-wave-depositional",
+      name: "Depositional Landforms",
+      flashcards: [
+        { id: "swd1", front: "How do sea-wave depositional landforms form?", back: "Waves transport and deposit sediments (sand, gravel, pebbles) where wave energy is lower or in calm coastal environments. These features shape coastlines over time." },
+        { id: "swd2", front: "What is a Beach?", back: "A gently sloping accumulation of sand, gravel or pebbles along the shoreline, deposited by waves. Less energetic waves deposit finer materials, more energetic waves deposit coarser materials." },
+        { id: "swd3", front: "What is a Sand Spit?", back: "A projected deposition extending from the coast into the sea, often with a hooked end. Formed by longshore drift — waves approach shore at an angle, moving sediments along the coast. When coastline changes direction or wave energy decreases, sediment is deposited." },
+        { id: "swd4", front: "What is a Sand Bar?", back: "A ridge of sand forming parallel to the coast, either partially or completely enclosing a body of water such as a lagoon. Forms when sediments are transported offshore and deposited in shallow waters." },
+        { id: "swd5", front: "What are Barrier Islands (Bay Barrier)?", back: "Long, narrow islands of sand or sediment running parallel to the mainland coast, separated by a lagoon or bay. They provide natural defense against coastal erosion and storm surges by absorbing wave energy." },
+        { id: "swd6", front: "What is a Lagoon?", back: "A shallow body of water separated from the sea by a sandbar, barrier island or reef. Forms when a bar, spit or barrier island encloses a portion of the sea, protecting it from direct wave action." },
+        { id: "swd7", front: "What is a Tombolo?", back: "A narrow strip of sand connecting an island to the mainland or another island. Formed by wave refraction and longshore drift — as waves bend around an island, energy decreases on the leeward side, allowing sediments to accumulate in a ridge." },
+        { id: "swd8", front: "What is Longshore Drift?", back: "A process where waves approach the shore at an angle, moving sediments along the coast. It is responsible for the formation of spits, bars and other coastal depositional features." },
+      ],
+      quizzes: [
+        { id: "swdq1", question: "Beaches are formed by:", options: ["River deposition", "Wave deposition of sediments along the shoreline", "Glacial action", "Volcanic eruptions"], correct: 1 },
+        { id: "swdq2", question: "A Sand Spit is formed primarily by:", options: ["River erosion", "Longshore drift", "Tidal action only", "Glacial deposition"], correct: 1 },
+        { id: "swdq3", question: "A Lagoon is separated from the sea by:", options: ["A mountain range", "A sandbar, barrier island or reef", "A river delta", "A volcanic ridge"], correct: 1 },
+        { id: "swdq4", question: "A Tombolo connects:", options: ["Two rivers", "An island to the mainland", "Two mountain peaks", "A lake to the sea"], correct: 1 },
+        { id: "swdq5", question: "Barrier Islands protect the mainland by:", options: ["Blocking river flow", "Absorbing wave energy", "Preventing rainfall", "Redirecting ocean currents"], correct: 1 },
+        { id: "swdq6", question: "A Sand Bar forms:", options: ["Perpendicular to the coast", "Parallel to the coast in shallow waters", "Only in deep ocean", "At river mouths only"], correct: 1 },
+        { id: "swdq7", question: "The hooked end of a Spit forms due to:", options: ["Tectonic activity", "Changes in wind direction or wave energy", "Glacial retreat", "River erosion"], correct: 1 },
+        { id: "swdq8", question: "Tombolo formation involves:", options: ["Volcanic activity", "Wave refraction and longshore drift", "Chemical weathering", "Mass wasting"], correct: 1 },
+      ],
+    },
+  ],
   },
 ];
 
