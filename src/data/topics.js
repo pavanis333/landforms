@@ -396,6 +396,50 @@ const topics = [
     },
   ],
   },
+  {
+    id: "arid-landforms",
+    name: "Arid (Wind) Landforms",
+    subtopics: [
+      {
+        id: "arid-intro",
+        name: "Introduction & Erosion Processes",
+        flashcards: [
+          { id: "al1", front: "What are Aeolian Landforms?", back: "Landforms in arid and semi-arid regions shaped by wind (aeolian forces). Wind is a powerful agent of erosion, transportation and deposition in areas with little vegetation, where loose sand, silt and dust are easily moved." },
+          { id: "al2", front: "What are the three processes of wind erosion?", back: "1. Deflation — wind removes and carries away loose, fine-grained particles\n2. Abrasion — wind-borne sand grains grind against surfaces, wearing them down\n3. Attrition — sand particles wear down and break apart as they collide with each other while transported by wind" },
+        ],
+        quizzes: [
+          { id: "alq1", question: "Aeolian forces are dominant in:", options: ["Tropical rainforests", "Arid and semi-arid regions", "Deep ocean floors", "Polar ice caps"], correct: 1 },
+          { id: "alq2", question: "Deflation refers to:", options: ["Wind-borne sand grinding surfaces", "Wind removing loose fine-grained particles", "Sand particles colliding with each other", "Wind depositing sediments"], correct: 1 },
+        ],
+      },
+      {
+        id: "arid-erosional",
+        name: "Erosional Landforms",
+        flashcards: [
+          { id: "ae1", front: "What is a Rock Pedestal (Mushroom Rock)?", back: "An isolated rock formation with a narrow base and wider top, resembling a mushroom. Wind erosion is most effective near the ground, so the lower part erodes faster, forming a narrow base and wider top." },
+          { id: "ae2", front: "What are Demoiselles (Hoodoos)?", back: "Tall, thin columns of rock left standing as softer rock around them erodes away. Often capped by a harder, more resistant rock layer that protects the column from rapid erosion." },
+          { id: "ae3", front: "What are Yardangs?", back: "Streamlined, elongated ridges carved into the desert surface by wind erosion. Form parallel to the prevailing wind direction. Strong winds erode softer rock layers, leaving harder layers as aerodynamic ridges." },
+          { id: "ae4", front: "What are Zeugen?", back: "Tabular masses or ridges of rock with a flat, hard top surface and softer, eroded base. Formed when wind erodes alternating layers of hard and soft rock — softer layers erode quickly, harder layers remain as tabular features." },
+          { id: "ae5", front: "What is an Inselberg?", back: "An isolated hill or mountain rising abruptly from flat desert plains. Remnants of ancient landforms that resisted wind erosion while surrounding softer materials were eroded away. Usually steep-sided." },
+          { id: "ae6", front: "What is a Mesa?", back: "A large, flat-topped hill with steep sides (Spanish for 'table'). Wider than it is tall, with a hard erosion-resistant top layer protecting softer underlying rock. Formed by differential erosion." },
+          { id: "ae7", front: "What is a Butte?", back: "A smaller, more isolated landform similar to a mesa but with a much smaller top surface area. Essentially a smaller remnant of a mesa, formed as the mesa top continues to erode. Separated by deep gorges or canyons in arid regions." },
+          { id: "ae8", front: "How does a Mesa become a Butte?", back: "When the top of a mesa continues to erode, the flat surface area shrinks, eventually leaving a smaller, isolated hill — the butte." },
+          { id: "ae9", front: "What is a Dreikanter?", back: "An angular, wind-sculpted rock with three flat faces (German for 'three-edged'). Formed by wind abrasion — sand grains strike the rock surface creating flat, smooth faces. As wind direction shifts, different sides are eroded, producing three or more polished flat faces." },
+        ],
+        quizzes: [
+          { id: "aeq1", question: "Mushroom Rocks have a narrow base because:", options: ["Chemical weathering at top", "Wind erosion is most effective near the ground", "Water erodes the base", "Glacial action"], correct: 1 },
+          { id: "aeq2", question: "Demoiselles (Hoodoos) are protected from rapid erosion by:", options: ["Sand covering", "A harder resistant rock cap", "Vegetation", "Water layer"], correct: 1 },
+          { id: "aeq3", question: "Yardangs form parallel to:", options: ["River flow direction", "Prevailing wind direction", "Mountain ridges", "Ocean currents"], correct: 1 },
+          { id: "aeq4", question: "Zeugen have a layered appearance because of:", options: ["Volcanic ash layers", "Alternating hard and soft rock eroded by wind", "River deposition", "Glacial striations"], correct: 1 },
+          { id: "aeq5", question: "An Inselberg is:", options: ["A sand dune", "An isolated hill rising from flat desert plains", "A river valley", "A coastal cliff"], correct: 1 },
+          { id: "aeq6", question: "The relationship between a Mesa and a Butte is:", options: ["They are the same landform", "A Butte is a smaller remnant of a Mesa", "A Mesa forms from a Butte", "They form in different environments"], correct: 1 },
+          { id: "aeq7", question: "Dreikanter means 'three-edged' in:", options: ["Spanish", "French", "German", "Latin"], correct: 2 },
+          { id: "aeq8", question: "Dreikanter gets multiple flat faces because:", options: ["River erosion from different angles", "Wind direction shifts over time exposing different sides", "Chemical weathering", "Glacial polishing"], correct: 1 },
+          { id: "aeq9", question: "Which landform is formed by differential erosion of horizontal strata?", options: ["Yardang", "Mesa and Butte", "Dreikanter", "Inselberg"], correct: 1 },
+        ],
+      },
+    ],
+  },
 ];
 
 export default topics;
