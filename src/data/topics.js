@@ -89,6 +89,41 @@ const topics = [
           { id: "cwq8", question: "Reduction conditions typically exist:", options: ["On mountain peaks", "In desert environments", "Below the water table in waterlogged ground", "In volcanic regions"], correct: 2 },
         ],
       },
+      {
+        id: "biological-weathering",
+        name: "Biological Weathering",
+        flashcards: [
+          { id: "bw1", front: "What is Biological Weathering?", back: "The weakening and subsequent disintegration of rock by plants, animals and microbes. It works in combination with physical and chemical weathering but is distinct because organisms are directly involved." },
+          { id: "bw2", front: "In what two ways can Biological Weathering occur?", back: "1. Physical stress — penetration of plant roots, physical impact of animal hooves, etc.\n2. Chemical changes — action of worms, lichen, etc." },
+          { id: "bw3", front: "How do burrowing organisms contribute to weathering?", back: "Organisms like earthworms and termites burrow and wedge into rock, exposing new surfaces to chemical attack and assisting in the penetration of moisture and air." },
+          { id: "bw4", front: "How do ploughing and cultivation contribute to weathering?", back: "They help in mixing soil and creating new contacts between air, water and minerals in the earth materials." },
+          { id: "bw5", front: "How does decaying plant and animal matter contribute to weathering?", back: "It helps in the production of humic, carbonic and other acids which enhance decay and solubility of some elements." },
+        ],
+        quizzes: [
+          { id: "bwq1", question: "Biological weathering is distinct from other types because:", options: ["It only occurs in tropical regions", "Organisms are directly involved", "It doesn't involve chemical changes", "It only affects sedimentary rocks"], correct: 1 },
+          { id: "bwq2", question: "Which organisms help expose new rock surfaces through burrowing?", options: ["Fish and amphibians", "Earthworms and termites", "Birds and mammals", "Fungi only"], correct: 1 },
+          { id: "bwq3", question: "Decaying organic matter produces acids that:", options: ["Harden the rock surface", "Enhance decay and solubility of elements", "Create volcanic activity", "Reduce erosion"], correct: 1 },
+          { id: "bwq4", question: "Plant roots causing rock disintegration is an example of:", options: ["Chemical weathering only", "Physical stress in biological weathering", "Erosion", "Deposition"], correct: 1 },
+        ],
+      },
+      {
+        id: "erosion-transport-deposition",
+        name: "Erosion, Transportation & Deposition",
+        flashcards: [
+          { id: "etd1", front: "What is Erosion?", back: "The removal of weathered material by agents like water, wind, glaciers and sea waves. The eroded material is transported from one place to another." },
+          { id: "etd2", front: "What is Transportation in the context of exogenic processes?", back: "The eroded materials are transported by agents of erosion such as rivers, glaciers, wind and ocean currents. The transportation distance and sorting of material depend on the energy of the transporting agent." },
+          { id: "etd3", front: "What is Deposition?", back: "Occurs when the transporting agent loses its energy and deposits the eroded material. This can lead to the formation of various landforms like floodplains, deltas, sand dunes and moraines." },
+          { id: "etd4", front: "Name the main agents of erosion.", back: "Water, Wind, Glaciers and Sea Waves." },
+          { id: "etd5", front: "What landforms are formed by deposition?", back: "Floodplains, Deltas, Sand Dunes and Moraines." },
+        ],
+        quizzes: [
+          { id: "etdq1", question: "Erosion involves:", options: ["Breaking down rocks in place", "Removal and transport of weathered material", "Only chemical reactions", "Formation of new minerals"], correct: 1 },
+          { id: "etdq2", question: "Transportation distance and sorting depend on:", options: ["Type of rock", "Energy of the transporting agent", "Chemical composition of sediment", "Time of year"], correct: 1 },
+          { id: "etdq3", question: "Deposition occurs when:", options: ["Wind speed increases", "The transporting agent gains energy", "The transporting agent loses energy", "Weathering accelerates"], correct: 2 },
+          { id: "etdq4", question: "Which of the following is a depositional landform?", options: ["V-shaped valley", "Gorge", "Moraine", "Waterfall"], correct: 2 },
+          { id: "etdq5", question: "Which is NOT an agent of erosion?", options: ["Rivers", "Glaciers", "Sunlight", "Wind"], correct: 2 },
+        ],
+      },
     ],
   },
 ];
