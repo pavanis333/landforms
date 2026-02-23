@@ -533,6 +533,49 @@ const topics = [
       },
     ],
   },
+  {
+    id: "glacial-landforms",
+    name: "Glacial Landforms",
+    subtopics: [
+      {
+        id: "glacial-intro",
+        name: "Introduction",
+        flashcards: [
+          { id: "gl1", front: "What are Glaciers?", back: "Large masses of ice moving as sheets over land or as linear flows down mountain slopes in broad trough-like valleys. Movement is slow — a few centimetres to a few metres a day. Form where snow accumulation exceeds melting over long periods." },
+          { id: "gl2", front: "What drives glacier movement?", back: "The force of gravity. Glaciers act as powerful agents of erosion, transportation and deposition." },
+          { id: "gl3", front: "What are the two main processes of glacial erosion?", back: "1. Plucking — removing large chunks of rock frozen to the glacier's bottom, carried away by moving ice\n2. Abrasion — particles scraping against each other, wearing down surfaces" },
+        ],
+        quizzes: [
+          { id: "glq1", question: "Glaciers move primarily due to:", options: ["Wind", "Water currents", "Gravity", "Tectonic forces"], correct: 2 },
+          { id: "glq2", question: "Plucking involves:", options: ["Grinding rock surfaces smooth", "Removing large rock chunks frozen to glacier bottom", "Wind carrying sand particles", "Chemical dissolution"], correct: 1 },
+        ],
+      },
+      {
+        id: "glacial-erosional",
+        name: "Erosional Landforms",
+        flashcards: [
+          { id: "ge1", front: "What is a U-Shaped Valley?", back: "A broad, flat-bottomed valley with steep, straight sides. Glaciers widen, deepen and straighten pre-existing V-shaped river valleys into U-shaped valleys. Valley floor covered with glacial debris.\nExample: Yosemite Valley, California, USA." },
+          { id: "ge2", front: "What is a Hanging Valley?", back: "A tributary valley elevated above the main U-shaped valley. Forms when smaller glaciers (unable to erode as deeply as larger glaciers) join the main glacial valley, leaving the tributary 'hanging' above. Often have waterfalls cascading into the main valley." },
+          { id: "ge3", front: "What is a Cirque (Corrie)?", back: "A chair-shaped, bowl-like depression at the head of a glacial valley. Formed by glacier plucking and abrading rock beneath it. Snow accumulates, transforms to ice, and erodes the hollow deeper and steeper. Has steep back walls and a flat or gently sloping basin." },
+          { id: "ge4", front: "What are Horns (Pyramidal Peaks)?", back: "Sharp, pyramid-shaped peaks formed by headward erosion of multiple cirques surrounding a central point. Formed when three or more cirques erode a mountain summit from different sides until they meet, creating high, sharp-pointed, steep-sided peaks." },
+          { id: "ge5", front: "What are Arêtes?", back: "Sharp, knife-edged ridges formed between two adjacent cirques or glacial valleys. Created by two glaciers eroding parallel valleys — intense erosion on both sides narrows the ridge between them." },
+          { id: "ge6", front: "What is a Tarn Lake?", back: "A lake of water found within a cirque after the glacier disappears. Also called cirque lakes." },
+          { id: "ge7", front: "What is a Paternoster Lake?", back: "A series of multiple glacial lakes connected by a stream or braided stream system." },
+          { id: "ge8", front: "How does a V-shaped valley become U-shaped?", back: "A glacier moves through a pre-existing V-shaped river valley, widening, deepening and straightening it through erosion by the sheer weight of ice." },
+        ],
+        quizzes: [
+          { id: "geq1", question: "U-shaped valleys are formed from V-shaped valleys by:", options: ["River erosion", "Glacial erosion widening and deepening them", "Wind erosion", "Chemical weathering"], correct: 1 },
+          { id: "geq2", question: "Hanging valleys often feature:", options: ["Sand dunes", "Waterfalls cascading into the main valley", "Deltas", "Meanders"], correct: 1 },
+          { id: "geq3", question: "A Cirque is:", options: ["A sharp mountain peak", "A bowl-like depression at the head of a glacial valley", "A knife-edged ridge", "A glacial lake"], correct: 1 },
+          { id: "geq4", question: "Horns are formed when:", options: ["A single cirque erodes deeply", "Three or more cirques erode a summit from different sides", "A glacier deposits material", "Rivers cut through mountains"], correct: 1 },
+          { id: "geq5", question: "An Arête is formed between:", options: ["Two rivers", "Two adjacent cirques or glacial valleys", "A mountain and a plain", "Two sand dunes"], correct: 1 },
+          { id: "geq6", question: "A Tarn Lake is found:", options: ["At a river delta", "Within a cirque after the glacier disappears", "In a desert basin", "At the base of a waterfall"], correct: 1 },
+          { id: "geq7", question: "Paternoster Lakes are:", options: ["Single isolated lakes", "Multiple glacial lakes connected by streams", "Saltwater lagoons", "Volcanic crater lakes"], correct: 1 },
+          { id: "geq8", question: "Yosemite Valley is an example of:", options: ["A V-shaped valley", "A U-shaped valley", "A Rift valley", "A Karst valley"], correct: 1 },
+        ],
+      },
+    ],
+  },
 ];
 
 export default topics;
