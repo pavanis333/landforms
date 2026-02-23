@@ -282,6 +282,40 @@ const topics = [
     },
   ],
   },
+  {
+    id: "drainage-patterns",
+    name: "River Drainage Patterns",
+    subtopics: [
+      {
+        id: "drainage-patterns-all",
+        name: "Types of Drainage Patterns",
+        flashcards: [
+          { id: "dp1", front: "What are River Drainage Patterns?", back: "The arrangement of a river system and its tributaries within a landscape. Shaped by geological features, slope, climate and underlying rock types." },
+          { id: "dp2", front: "What are the primary types of drainage patterns?", back: "1. Dendritic\n2. Trellis\n3. Rectangular\n4. Radial\n5. Centripetal\n6. Parallel" },
+          { id: "dp3", front: "What is a Dendritic Drainage Pattern?", back: "Resembles a tree or branching structure with a main river and tributaries branching off at various angles. Develops in areas with uniform rock types and gentle slopes where the river follows the path of least resistance.\nExamples: Mississippi, Indus, Ganga Rivers." },
+          { id: "dp4", front: "What is a Trellis Drainage Pattern?", back: "Resembles a garden trellis — main river runs parallel to mountain ranges while tributaries join at right angles. Forms in regions of alternating hard and soft rock layers.\nExamples: Appalachian Mountains, Chota Nagpur Plateau." },
+          { id: "dp5", front: "What is a Rectangular Drainage Pattern?", back: "Features right-angle bends and straight segments resembling a rectangular grid. Develops in regions with faulted or jointed bedrock where streams follow rock fractures.\nExamples: Colorado River, Vindhyan Mountain systems." },
+          { id: "dp6", front: "What is a Radial Drainage Pattern?", back: "Rivers radiate outward from a central point, resembling spokes of a wheel. Typically forms around volcanic cones or isolated mountains.\nExamples: Mount Fuji (Japan), rivers from Amarkantak Hills (Narmada, Son, Mahanadi)." },
+          { id: "dp7", front: "What is a Centripetal Drainage Pattern?", back: "Rivers flow inward toward a central point, resembling a funnel or basin. Occurs in depressions or low-lying areas (basins, lakes, craters). Water accumulates in the central basin forming lakes or wetlands.\nExamples: Kathmandu Valley (Nepal), Raigarh Dome in Lower Chambal Basin (India)." },
+          { id: "dp8", front: "What is a Parallel Drainage Pattern?", back: "Rivers run parallel to each other in a uniform direction. Occurs in areas with steep slopes and uniform geological features.\nExamples: Rivers of Western Ghats flowing into Arabian Sea, rivers of Lesser Himalayas." },
+          { id: "dp9", front: "Dendritic pattern forms in what type of terrain?", back: "Areas with relatively uniform rock types and gentle slopes." },
+          { id: "dp10", front: "What geological condition creates a Rectangular drainage pattern?", back: "Faulted or jointed bedrock, where streams follow fractures in the rock." },
+        ],
+        quizzes: [
+          { id: "dpq1", question: "A Dendritic drainage pattern resembles:", options: ["Spokes of a wheel", "A tree or branching structure", "A rectangular grid", "A garden trellis"], correct: 1 },
+          { id: "dpq2", question: "Trellis drainage pattern forms in regions with:", options: ["Uniform rock types", "Alternating hard and soft rock layers", "Volcanic cones", "Steep uniform slopes"], correct: 1 },
+          { id: "dpq3", question: "Rivers radiating outward from a central point form a:", options: ["Dendritic pattern", "Trellis pattern", "Radial pattern", "Parallel pattern"], correct: 2 },
+          { id: "dpq4", question: "Rectangular drainage pattern develops in areas with:", options: ["Gentle slopes", "Faulted or jointed bedrock", "Volcanic mountains", "Uniform sedimentary rock"], correct: 1 },
+          { id: "dpq5", question: "The Ganga River exhibits which drainage pattern?", options: ["Radial", "Trellis", "Dendritic", "Centripetal"], correct: 2 },
+          { id: "dpq6", question: "Centripetal drainage is characterised by rivers flowing:", options: ["Outward from a central point", "Parallel to each other", "Inward toward a central point", "At right angles to the main river"], correct: 2 },
+          { id: "dpq7", question: "Rivers from Amarkantak Hills (Narmada, Son, Mahanadi) display which pattern?", options: ["Dendritic", "Trellis", "Radial", "Parallel"], correct: 2 },
+          { id: "dpq8", question: "Parallel drainage pattern occurs in areas with:", options: ["Alternating rock layers", "Steep slopes and uniform geology", "Volcanic cones", "Depressions and basins"], correct: 1 },
+          { id: "dpq9", question: "The Kathmandu Valley is an example of:", options: ["Radial drainage", "Centripetal drainage", "Dendritic drainage", "Trellis drainage"], correct: 1 },
+          { id: "dpq10", question: "Which drainage pattern is found in the Appalachian Mountains?", options: ["Dendritic", "Radial", "Trellis", "Rectangular"], correct: 2 },
+        ],
+      },
+    ],
+  },
 ];
 
 export default topics;
