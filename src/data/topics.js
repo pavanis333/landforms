@@ -157,5 +157,25 @@ topics.push({
         { id: "mmq6", question: "Which human activity can trigger mass movements?", options: ["Irrigation", "Mining", "Crop rotation", "Terracing"], correct: 1 },
       ],
     },
+    {
+      id: "slow-movements",
+      name: "Slow Movements",
+      flashcards: [
+        { id: "sm1", front: "What are Slow Movements in mass wasting?", back: "The gradual, almost imperceptible downslope movement of soil, rock and debris. These movements are spread over long periods and often go unnoticed until significant changes have occurred." },
+        { id: "sm2", front: "What are the three types of Slow Movements?", back: "1. Soil Creep\n2. Rock Creep\n3. Solifluction" },
+        { id: "sm3", front: "What is Soil Creep?", back: "The slow, steady downhill movement of soil and loose rock particles due to gravity. Most common in areas with moderate slope, affecting surface layers. Soil expands during wet/freezing conditions and contracts during dry/thawing conditions — this cycle gradually moves particles downslope." },
+        { id: "sm4", front: "What is Rock Creep?", back: "Similar to soil creep — the slow movement of weathered rock material down a slope. Rocks fragmented by weathering move very slowly due to gravity, usually in regions with fractured rock layers." },
+        { id: "sm5", front: "What is Solifluction?", back: "A type of slow movement found in cold, periglacial regions where the top layer of soil thaws and flows over the frozen subsoil (permafrost). During summer, the top layer becomes saturated with water and starts moving slowly downhill." },
+        { id: "sm6", front: "What causes the downslope movement in Soil Creep?", back: "The cycle of expansion (during wet conditions or freezing) and contraction (during dry conditions or thawing) gradually moves soil particles downslope." },
+      ],
+      quizzes: [
+        { id: "smq1", question: "Slow movements in mass wasting are characterised by:", options: ["Sudden, catastrophic displacement", "Gradual, almost imperceptible movement over long periods", "Movement only during earthquakes", "Rapid flow of debris"], correct: 1 },
+        { id: "smq2", question: "Soil Creep is most common in areas with:", options: ["Very steep cliffs", "Moderate slopes", "Flat plains", "Ocean floors"], correct: 1 },
+        { id: "smq3", question: "Solifluction occurs in:", options: ["Tropical rainforests", "Desert environments", "Cold, periglacial regions with permafrost", "Deep ocean trenches"], correct: 2 },
+        { id: "smq4", question: "In Solifluction, the top layer flows over:", options: ["Bedrock", "Sand dunes", "Frozen subsoil (permafrost)", "Volcanic lava"], correct: 2 },
+        { id: "smq5", question: "Rock Creep involves the movement of:", options: ["Magma beneath the surface", "Weathered rock fragments slowly due to gravity", "Sand particles by wind", "Dissolved minerals in water"], correct: 1 },
+        { id: "smq6", question: "The expansion-contraction cycle in Soil Creep is caused by:", options: ["Tectonic activity", "Wet/freezing and dry/thawing conditions", "Volcanic eruptions", "Ocean tides"], correct: 1 },
+      ],
+    },
   ],
 });
