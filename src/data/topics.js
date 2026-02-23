@@ -130,8 +130,33 @@ const topics = [
 
 export default topics;
 
-// Mass Movements topic - separate for clarity
 topics.push({
+  id: "fluvial-landforms",
+  name: "Fluvial (River) Landforms",
+  subtopics: [
+    {
+      id: "fluvial-intro",
+      name: "Introduction & Key Characteristics",
+      flashcards: [
+        { id: "fl1", front: "What are Fluvial Landforms?", back: "Landforms resulting from the action of rivers and streams as they interact with the Earth's surface. Shaped by exogenic forces like erosion, transportation and deposition driven by water flow." },
+        { id: "fl2", front: "How do rivers erode land?", back: "By cutting into their beds and banks through:\n1. Mechanical action (abrasion and hydraulic action)\n2. Chemical weathering (like solution)" },
+        { id: "fl3", front: "What are the four processes by which rivers transport eroded material?", back: "1. Suspension\n2. Traction\n3. Saltation\n4. Solution" },
+        { id: "fl4", front: "When does a river deposit material?", back: "When a river loses energy, it deposits the materials it carries, forming features like deltas, floodplains and alluvial fans." },
+        { id: "fl5", front: "What is Traction Erosion?", back: "A geological process where large rocks are rolled or dragged along the bottom of a river or shore by the force of the current." },
+        { id: "fl6", front: "What factors determine the type of fluvial landforms formed?", back: "The energy, velocity and sediment load of the river at different stages of its course." },
+        { id: "fl7", front: "What are the two categories of fluvial landforms?", back: "1. Erosional landforms\n2. Depositional landforms" },
+      ],
+      quizzes: [
+        { id: "flq1", question: "Fluvial landforms are shaped primarily by:", options: ["Wind action", "Rivers and streams", "Glaciers", "Volcanic activity"], correct: 1 },
+        { id: "flq2", question: "Which is NOT a process of river transportation?", options: ["Suspension", "Saltation", "Exfoliation", "Traction"], correct: 2 },
+        { id: "flq3", question: "Rivers deposit material when they:", options: ["Gain energy", "Lose energy", "Flow faster", "Enter the ocean only"], correct: 1 },
+        { id: "flq4", question: "Traction involves:", options: ["Dissolved minerals carried in water", "Fine particles floating in water", "Large rocks rolled or dragged along the river bottom", "Particles bouncing along the river bed"], correct: 2 },
+        { id: "flq5", question: "Abrasion and hydraulic action are types of:", options: ["Chemical weathering", "Mechanical erosion by rivers", "Biological weathering", "Deposition"], correct: 1 },
+        { id: "flq6", question: "Which of the following is a depositional fluvial landform?", options: ["Gorge", "Waterfall", "Delta", "V-shaped valley"], correct: 2 },
+      ],
+    },
+  ],
+});
   id: "mass-movements",
   name: "Mass Movements",
   subtopics: [
