@@ -126,12 +126,8 @@ const topics = [
       },
     ],
   },
-];
-
-export default topics;
-
-topics.push({
-  id: "fluvial-landforms",
+  {
+    id: "fluvial-landforms",
   name: "Fluvial (River) Landforms",
   subtopics: [
     {
@@ -187,7 +183,8 @@ topics.push({
       ],
     },
   ],
-});
+  },
+  {
   id: "mass-movements",
   name: "Mass Movements",
   subtopics: [
@@ -260,4 +257,7 @@ topics.push({
       ],
     },
   ],
-});
+  },
+];
+
+export default topics;
